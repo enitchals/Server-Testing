@@ -10,7 +10,7 @@ Add a new kitty to the list!
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `name` | string | the name of your kitty |
+| name | string | the name of your kitty |
 
 ## `[PUT] '/kitties/:name'`
 Update information about a kitty =^-.-^=
