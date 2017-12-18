@@ -10,10 +10,22 @@ Add a new kitty to the list!
 | Name | Type | Description |
 | --- | --- | --- |
 | name | string | the name of your kitty |
-| breed | string | the beed of your kitty |
-| fur | string | the color or coat pattern of your kitty |
+| color | string | the color of your kitty |
+| breed | string | the breed of your kitty |
 | age | number | the age of your kitty |
 | fact | string | a fact about your kitty |
+
+### Example Input
+
+```
+{ 
+    "name": "Kara",
+    "color": "Grey and White",
+    "breed": "Domestic Shorthair"
+    "age": 7,
+    "fact": "Kara is the cutest little kitty."
+}
+```
 
 ## `[PUT] '/kitties/:name'`
 Update information about a kitty =^-.-^=
