@@ -7,9 +7,9 @@ Get a list of all the kitties!
 Add a new kitty to the list!
 
 ###Parameters
-|Name|Type|Description|
-|----|----|-----------|
-|`name`|string|the name of your kitty|
+|Name       |Type     |Description              |
+|-----------|---------|-------------------------|
+|`name`     |string   |the name of your kitty   |
 
 ## `[PUT] '/kitties/:name'`
 Update information about a kitty =^-.-^=
