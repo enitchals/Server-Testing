@@ -6,17 +6,24 @@ Get a list of all the kitties!
 ## `[POST] '/kitties'`
 Add a new kitty to the list!
 
-###Parameters
-
+### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
 | name | string | the name of your kitty |
+| breed | string | the beed of your kitty |
+| fur | string | the color or coat pattern of your kitty |
+| age | number | the age of your kitty |
+| fact | string | a fact about your kitty |
 
 ## `[PUT] '/kitties/:name'`
 Update information about a kitty =^-.-^=
 
+### Parameters
+The parameters to update a kitty are the same as the parameters to add a new kitty.
+
 ## `[DELETE] '/kitties/:name'`
 Delete a kitty ~^x.x^~
+(...you monster!)
 
 
 
