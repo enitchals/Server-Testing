@@ -1,11 +1,11 @@
 # My API Documentation
 
-## `[GET] '/kitties'`
+## `[GET] '/cats'`
 Get a list of all the kitties!
 
 ------
 
-## `[POST] '/kitties'`
+## `[POST] '/cats'`
 Add a new kitty to the list!
 
 ### Parameters
@@ -29,7 +29,7 @@ Add a new kitty to the list!
 
 ------
 
-## `[PUT] '/kitties/:name'`
+## `[PUT] '/cats/:name'`
 Update information about a kitty =^-.-^=
 
 ### Parameters
@@ -37,6 +37,6 @@ The parameters to update a kitty are the same as the parameters to add a new kit
 
 ------
 
-## `[DELETE] '/kitties/:name'`
+## `[DELETE] '/cats/:name'`
 Delete a kitty ~=^x.x^=~
 (...you monster!)
